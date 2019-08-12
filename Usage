@@ -1,0 +1,9 @@
+Clone the repo on your terminal by typing "git clone https://github.com/ThiruLoki/PondyMail.git" 
+Navigate to PondyMail directory
+Change the permission by typing "chmod +x pondyMail.py
+Replace the execution command into your own command 
+Type "nano pondyMail.py"
+Replace the value of COMMAND variable by your own command. by default it has "ipconfig" which gives the ip address of the host machine.
+Replace EMAIL & PASSWORD variable into your own.
+Replace server.sendmail (EMAIL, EMAIL, message + output) into from address & to address.
+save the changes and run by typing "python pondyMail.py"
